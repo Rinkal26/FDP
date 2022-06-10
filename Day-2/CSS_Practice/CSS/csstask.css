@@ -1,0 +1,44 @@
+body{
+    background-color: darkgrey;
+}
+.service{
+    height:650px;
+    width: 200px;
+    color: purple;
+    float: left;
+    margin:10px;
+    border: 3px solid purple;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.service-img{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-size: cover;
+}
+.service-img img{
+    width: 200px;
+    height: 150px;
+}
+.service-details{
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+}
+.heading{
+    text-align: center;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow:1px 1px 1px palevioletred;
+}
+@media(min-width:200px) and (max-width:767px){
+    #service .service{
+        width:75%;
+    }
+}
+    
+
+
+
