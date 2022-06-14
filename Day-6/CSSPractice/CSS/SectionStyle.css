@@ -1,0 +1,110 @@
+/* Common CSS */
+body{
+    margin: 0px;
+}
+/* Common CSS */
+*{
+    box-sizing: border-box;
+}
+/* Header Tag */
+.header{
+    width: 100%;
+    background-color: darkgreen;
+    color: white;
+    height: 50px;
+}
+.logo{
+    float: left;
+    width: 20px;
+    padding-left: 10px;
+    line-height: 50px;
+}
+.nav1{
+    float: right;
+    width: 50px;
+    margin-right: 30px;
+    line-height: 50px;
+}
+/* for Banner */
+.sec1{
+    height: 100px;
+    width: 100%;
+    background-color: darkgreen;
+}
+.heading p{
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    color: white;
+    margin: 0px;
+    margin-top: 10px;
+}
+/* for introduction */
+.sec2{
+    height: 100px;
+    width: 100%;
+    background-color: darkgreen;
+}
+.intro p{
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    color: white;
+    margin: 0px;
+    margin-top: 10px;
+}
+/* for box */
+.container{
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+    margin: 0px;
+    background-color: blue;
+    margin-top: 10px;
+}
+.box{
+    float: left;
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    margin-top: 5px;
+}
+.b1{
+    height: 200px;
+    width: 405px;
+    color: white;
+    background-color: cadetblue;
+    padding-top: 10px;
+    margin-left: 12px;
+}
+.b2{
+    height: 200px;
+    width: 405px;
+    color: white;
+    background-color: cadetblue;
+    padding-top: 10px;
+    
+}
+.b3{
+    height: 200px;
+    width: 405px;
+    color: white;
+    background-color: cadetblue;
+    padding-top: 10px;
+   
+}
+.clear{
+    clear: both;
+}
+/* for footer */
+footer{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    font-size: 45px;
+    background-color: darkgreen;
+    color: white;
+    height: 60px;
+    margin-top: 10px;
+    width: 100%;
+}
