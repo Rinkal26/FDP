@@ -30,13 +30,13 @@ header{
     width: 100%;
 }
 .logo1{
-    height: 130px;
+    height: 120px;
     width: 130px;
     float: left;
     margin: 1px;
 }
 .logo2{
-    height: 100px;
+    height: 90px;
     width: 80px;
     float:right;
     margin: 8px;
@@ -44,7 +44,7 @@ header{
 
 h1{
     float: left;
-    margin-left:150px;
+    margin-left:200px;
 }
 .menu{
     height: 60px;
@@ -89,7 +89,7 @@ list ul li{
     height:300px;
     width:400px; 
     float:left;
-    margin-left: 110px;
+    margin-left: 160px;
 }
 .content p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -128,4 +128,11 @@ footer{
     text-align: center;
     font-size: x-large;
     padding-top: 10px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color:darkblue ;
+    border-radius: 10px 10px;
 }
